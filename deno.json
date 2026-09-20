@@ -12,5 +12,10 @@
     "jsdom": "npm:jsdom@^26.0.0",
     "json5": "npm:json5@^2.2.3",
     "puppeteer": "npm:puppeteer@^25.3.0"
+  },
+  "nodeModulesDir": "auto",
+  "allowScripts": {
+    "allow": ["npm:puppeteer@25.3.0"],
+    "deny": []
   }
 }
